@@ -63,6 +63,7 @@ td strong {
 
 #table-header {
     background-color: #351a00;
+    text-align:center;
 }
 
 .table-row {
@@ -73,9 +74,12 @@ td strong {
     color:white;
 }
 
+
 ul {
+    padding-top: 40px;
     text-align:left;
     padding-left:200px;
+    font-size:20px;
 }
 
 #csumb{
@@ -85,4 +89,8 @@ ul {
 
 #me {
     border-radius: 200px;
+}
+
+#buddy{
+    width:150px;
 }
