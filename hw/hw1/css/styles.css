@@ -6,7 +6,7 @@ body{
     font-size:1.4em;
 }
 
-#subheader, #subheader1, #subheader2, #subheader3, #subheader4{
+#subheader5, #subheader1, #subheader2, #subheader3, #subheader4{
     color:white;
     font-size:1.6em;
 }
@@ -53,7 +53,7 @@ nav a:hover{
     padding-bottom:100px;
 }
 
-#source{
+#source1, #source2, #source3, #source4, #source5, #source6, #source{
     color:white;
 }
 
