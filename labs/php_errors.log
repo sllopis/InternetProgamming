@@ -1,0 +1,10 @@
+[05-Feb-2018 23:04:07 UTC] PHP Parse error:  syntax error, unexpected 'img' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/sllopis/labs/lab2/index.php on line 10
+[05-Feb-2018 23:04:44 UTC] PHP Parse error:  syntax error, unexpected '70' (T_LNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/sllopis/labs/lab2/index.php on line 10
+[05-Feb-2018 23:05:21 UTC] PHP Parse error:  syntax error, unexpected 'img' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/sllopis/labs/lab2/index.php on line 16
+[05-Feb-2018 23:41:24 UTC] PHP Parse error:  syntax error, unexpected ''/>";' (T_ENCAPSED_AND_WHITESPACE), expecting ',' or ';' in /home/ubuntu/workspace/sllopis/labs/lab2/index.php on line 21
+[12-Feb-2018 03:39:16 UTC] PHP Parse error:  syntax error, unexpected 'reel' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/sllopis/labs/lab2/inc/functions.php on line 28
+[12-Feb-2018 03:39:16 UTC] PHP Stack trace:
+[12-Feb-2018 03:39:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab2/index.php:0
+[12-Feb-2018 03:39:17 UTC] PHP Parse error:  syntax error, unexpected 'reel' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/sllopis/labs/lab2/inc/functions.php on line 28
+[12-Feb-2018 03:39:17 UTC] PHP Stack trace:
+[12-Feb-2018 03:39:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab2/index.php:0

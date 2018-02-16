@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Lab 2: 777 Slot Machine </title>
+        
+        <style>
+            @import url("css/styles.css");
+        </style>
+    </head>
+    <body>
+        <div id="main">
+             <?php
+        
+                include 'inc/functions.php';
+                play();
+            ?>
+        
+            <form>
+                <input type="submit" value="Spin!"/>
+            </form>
+          
+        </div>
+        
+    </body>
+    
+    <footer>
+        <img id="buddy" src="img/buddy.png" alt="Picture of Buddy Verified" />
+    </footer>
+</html>
