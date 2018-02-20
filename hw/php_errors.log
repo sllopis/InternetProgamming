@@ -1,0 +1,370 @@
+[18-Feb-2018 22:14:46 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/sllopis/hw/hw2/index.php on line 23
+[18-Feb-2018 22:35:02 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/sllopis/hw/hw2/index.php on line 26
+[18-Feb-2018 22:35:02 UTC] PHP Stack trace:
+[18-Feb-2018 22:35:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 22:35:02 UTC] PHP   2. creatingRandom() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:21
+[18-Feb-2018 22:35:04 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/sllopis/hw/hw2/index.php on line 26
+[18-Feb-2018 22:35:04 UTC] PHP Stack trace:
+[18-Feb-2018 22:35:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 22:35:04 UTC] PHP   2. creatingRandom() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:21
+[18-Feb-2018 23:14:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/sllopis/hw/hw2/index.php on line 72
+[18-Feb-2018 23:14:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/sllopis/hw/hw2/index.php on line 71
+[18-Feb-2018 23:15:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/sllopis/hw/hw2/index.php on line 71
+[18-Feb-2018 23:15:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/sllopis/hw/hw2/index.php on line 73
+[18-Feb-2018 23:18:25 UTC] PHP Fatal error:  Call to undefined function creatingRandom() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 3
+[18-Feb-2018 23:18:25 UTC] PHP Stack trace:
+[18-Feb-2018 23:18:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:18:25 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:21
+[18-Feb-2018 23:20:37 UTC] PHP Fatal error:  Call to undefined function creatingRandom() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 3
+[18-Feb-2018 23:20:37 UTC] PHP Stack trace:
+[18-Feb-2018 23:20:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:20:37 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:21
+[18-Feb-2018 23:20:44 UTC] PHP Fatal error:  Call to undefined function creatingRandom() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 3
+[18-Feb-2018 23:20:44 UTC] PHP Stack trace:
+[18-Feb-2018 23:20:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:20:44 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:21
+[18-Feb-2018 23:20:46 UTC] PHP Fatal error:  Call to undefined function creatingRandom() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 3
+[18-Feb-2018 23:20:46 UTC] PHP Stack trace:
+[18-Feb-2018 23:20:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:20:46 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:21
+[18-Feb-2018 23:21:04 UTC] PHP Fatal error:  Call to undefined function creatingRandom() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 3
+[18-Feb-2018 23:21:04 UTC] PHP Stack trace:
+[18-Feb-2018 23:21:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:21:04 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:21
+[18-Feb-2018 23:21:18 UTC] PHP Fatal error:  Call to undefined function creatingRandom() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 3
+[18-Feb-2018 23:21:18 UTC] PHP Stack trace:
+[18-Feb-2018 23:21:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:21:18 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:21
+[18-Feb-2018 23:21:31 UTC] PHP Fatal error:  Call to undefined function creatingRandom() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 3
+[18-Feb-2018 23:21:31 UTC] PHP Stack trace:
+[18-Feb-2018 23:21:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:21:31 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:21
+[18-Feb-2018 23:21:35 UTC] PHP Fatal error:  Call to undefined function creatingRandom() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 3
+[18-Feb-2018 23:21:35 UTC] PHP Stack trace:
+[18-Feb-2018 23:21:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:21:35 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:21
+[18-Feb-2018 23:21:56 UTC] PHP Fatal error:  Call to undefined function creatingRandom() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 3
+[18-Feb-2018 23:21:56 UTC] PHP Stack trace:
+[18-Feb-2018 23:21:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:21:56 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:21
+[18-Feb-2018 23:22:46 UTC] PHP Fatal error:  Call to undefined function creatingRandom() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 3
+[18-Feb-2018 23:22:46 UTC] PHP Stack trace:
+[18-Feb-2018 23:22:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:22:46 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:21
+[18-Feb-2018 23:23:47 UTC] PHP Fatal error:  Call to undefined function creatingRandom() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 3
+[18-Feb-2018 23:23:47 UTC] PHP Stack trace:
+[18-Feb-2018 23:23:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:23:47 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:21
+[18-Feb-2018 23:24:37 UTC] PHP Fatal error:  Call to undefined function displayLifeQuotes() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 17
+[18-Feb-2018 23:24:37 UTC] PHP Stack trace:
+[18-Feb-2018 23:24:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:24:37 UTC] PHP   2. creatingRandomTheme() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:38:56 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:38:56 UTC] PHP Stack trace:
+[18-Feb-2018 23:38:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:38:56 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:38:56 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:38:56 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:38:56 UTC] PHP Stack trace:
+[18-Feb-2018 23:38:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:38:56 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:38:56 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:38:56 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:38:56 UTC] PHP Stack trace:
+[18-Feb-2018 23:38:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:38:56 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:38:56 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:38:56 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:38:56 UTC] PHP Stack trace:
+[18-Feb-2018 23:38:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:38:56 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:38:56 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:38:57 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:38:57 UTC] PHP Stack trace:
+[18-Feb-2018 23:38:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:38:57 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:38:57 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:38:57 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:38:57 UTC] PHP Stack trace:
+[18-Feb-2018 23:38:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:38:57 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:38:57 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:38:57 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:38:57 UTC] PHP Stack trace:
+[18-Feb-2018 23:38:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:38:57 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:38:57 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:38:57 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:38:57 UTC] PHP Stack trace:
+[18-Feb-2018 23:38:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:38:57 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:38:57 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:38:58 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:38:58 UTC] PHP Stack trace:
+[18-Feb-2018 23:38:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:38:58 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:38:58 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:38:58 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:38:58 UTC] PHP Stack trace:
+[18-Feb-2018 23:38:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:38:58 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:38:58 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:38:58 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:38:58 UTC] PHP Stack trace:
+[18-Feb-2018 23:38:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:38:58 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:38:58 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:38:58 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:38:58 UTC] PHP Stack trace:
+[18-Feb-2018 23:38:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:38:58 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:38:58 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:39:01 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:39:01 UTC] PHP Stack trace:
+[18-Feb-2018 23:39:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:39:01 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:39:01 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:39:01 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:39:01 UTC] PHP Stack trace:
+[18-Feb-2018 23:39:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:39:01 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:39:01 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:39:01 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:39:01 UTC] PHP Stack trace:
+[18-Feb-2018 23:39:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:39:01 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:39:01 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:39:01 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:39:01 UTC] PHP Stack trace:
+[18-Feb-2018 23:39:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:39:01 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:39:01 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:39:02 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:39:02 UTC] PHP Stack trace:
+[18-Feb-2018 23:39:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:39:02 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:39:02 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:39:02 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:39:02 UTC] PHP Stack trace:
+[18-Feb-2018 23:39:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:39:02 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:39:02 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:39:02 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:39:02 UTC] PHP Stack trace:
+[18-Feb-2018 23:39:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:39:02 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:39:02 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[18-Feb-2018 23:39:02 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 22
+[18-Feb-2018 23:39:02 UTC] PHP Stack trace:
+[18-Feb-2018 23:39:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[18-Feb-2018 23:39:02 UTC] PHP   2. displayLifeQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:22
+[18-Feb-2018 23:39:02 UTC] PHP   3. shuffle() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:22
+[19-Feb-2018 00:10:02 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 21
+[19-Feb-2018 00:10:02 UTC] PHP Stack trace:
+[19-Feb-2018 00:10:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 00:10:03 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 21
+[19-Feb-2018 00:10:03 UTC] PHP Stack trace:
+[19-Feb-2018 00:10:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 00:12:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 34
+[19-Feb-2018 00:12:11 UTC] PHP Stack trace:
+[19-Feb-2018 00:12:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 00:12:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 34
+[19-Feb-2018 00:12:14 UTC] PHP Stack trace:
+[19-Feb-2018 00:12:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 00:12:23 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 34
+[19-Feb-2018 00:12:23 UTC] PHP Stack trace:
+[19-Feb-2018 00:12:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 00:27:06 UTC] PHP Fatal error:  Call to undefined function creatingRandomTheme() in /home/ubuntu/workspace/sllopis/hw/hw2/index.php on line 20
+[19-Feb-2018 00:27:06 UTC] PHP Stack trace:
+[19-Feb-2018 00:27:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 00:27:07 UTC] PHP Fatal error:  Call to undefined function creatingRandomTheme() in /home/ubuntu/workspace/sllopis/hw/hw2/index.php on line 20
+[19-Feb-2018 00:27:07 UTC] PHP Stack trace:
+[19-Feb-2018 00:27:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 00:27:08 UTC] PHP Fatal error:  Call to undefined function creatingRandomTheme() in /home/ubuntu/workspace/sllopis/hw/hw2/index.php on line 20
+[19-Feb-2018 00:27:08 UTC] PHP Stack trace:
+[19-Feb-2018 00:27:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 00:27:08 UTC] PHP Fatal error:  Call to undefined function creatingRandomTheme() in /home/ubuntu/workspace/sllopis/hw/hw2/index.php on line 20
+[19-Feb-2018 00:27:08 UTC] PHP Stack trace:
+[19-Feb-2018 00:27:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 00:27:09 UTC] PHP Fatal error:  Call to undefined function creatingRandomTheme() in /home/ubuntu/workspace/sllopis/hw/hw2/index.php on line 20
+[19-Feb-2018 00:27:09 UTC] PHP Stack trace:
+[19-Feb-2018 00:27:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 00:34:50 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 32
+[19-Feb-2018 00:34:50 UTC] PHP Stack trace:
+[19-Feb-2018 00:34:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 00:38:29 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 11
+[19-Feb-2018 00:38:29 UTC] PHP Stack trace:
+[19-Feb-2018 00:38:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 00:38:29 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:19
+[19-Feb-2018 00:38:29 UTC] PHP   3. array_rand(*uninitialized*) /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:11
+[19-Feb-2018 20:25:05 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 55
+[19-Feb-2018 20:25:05 UTC] PHP Stack trace:
+[19-Feb-2018 20:25:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:25:05 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:25:05 UTC] PHP   3. displayImageQuotes($myTheme = *uninitialized*) /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:28
+[19-Feb-2018 20:25:06 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 55
+[19-Feb-2018 20:25:06 UTC] PHP Stack trace:
+[19-Feb-2018 20:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:25:06 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:25:06 UTC] PHP   3. displayImageQuotes($myTheme = *uninitialized*) /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:28
+[19-Feb-2018 20:25:07 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 55
+[19-Feb-2018 20:25:07 UTC] PHP Stack trace:
+[19-Feb-2018 20:25:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:25:07 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:25:07 UTC] PHP   3. displayImageQuotes($myTheme = *uninitialized*) /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:30
+[19-Feb-2018 20:25:07 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 55
+[19-Feb-2018 20:25:07 UTC] PHP Stack trace:
+[19-Feb-2018 20:25:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:25:07 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:25:07 UTC] PHP   3. displayImageQuotes($myTheme = *uninitialized*) /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:28
+[19-Feb-2018 20:25:08 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 55
+[19-Feb-2018 20:25:08 UTC] PHP Stack trace:
+[19-Feb-2018 20:25:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:25:08 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:25:08 UTC] PHP   3. displayImageQuotes($myTheme = *uninitialized*) /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:28
+[19-Feb-2018 20:25:09 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 55
+[19-Feb-2018 20:25:09 UTC] PHP Stack trace:
+[19-Feb-2018 20:25:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:25:09 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:25:09 UTC] PHP   3. displayImageQuotes($myTheme = *uninitialized*) /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:28
+[19-Feb-2018 20:25:10 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 55
+[19-Feb-2018 20:25:10 UTC] PHP Stack trace:
+[19-Feb-2018 20:25:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:25:10 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:25:10 UTC] PHP   3. displayImageQuotes($myTheme = *uninitialized*) /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:28
+[19-Feb-2018 20:36:56 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 55
+[19-Feb-2018 20:36:56 UTC] PHP Stack trace:
+[19-Feb-2018 20:36:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:36:56 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:36:56 UTC] PHP   3. displayImageQuotes($myTheme = *uninitialized*) /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:30
+[19-Feb-2018 20:36:58 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 55
+[19-Feb-2018 20:36:58 UTC] PHP Stack trace:
+[19-Feb-2018 20:36:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:36:58 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:36:58 UTC] PHP   3. displayImageQuotes($myTheme = *uninitialized*) /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:30
+[19-Feb-2018 20:37:00 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 55
+[19-Feb-2018 20:37:00 UTC] PHP Stack trace:
+[19-Feb-2018 20:37:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:37:00 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:37:00 UTC] PHP   3. displayImageQuotes($myTheme = *uninitialized*) /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:28
+[19-Feb-2018 20:37:00 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 55
+[19-Feb-2018 20:37:00 UTC] PHP Stack trace:
+[19-Feb-2018 20:37:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:37:00 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:37:00 UTC] PHP   3. displayImageQuotes($myTheme = *uninitialized*) /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:32
+[19-Feb-2018 20:37:00 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 55
+[19-Feb-2018 20:37:00 UTC] PHP Stack trace:
+[19-Feb-2018 20:37:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:37:00 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:37:00 UTC] PHP   3. displayImageQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:28
+[19-Feb-2018 20:37:01 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 55
+[19-Feb-2018 20:37:01 UTC] PHP Stack trace:
+[19-Feb-2018 20:37:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:37:01 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:37:01 UTC] PHP   3. displayImageQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:28
+[19-Feb-2018 20:37:02 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 55
+[19-Feb-2018 20:37:02 UTC] PHP Stack trace:
+[19-Feb-2018 20:37:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:37:02 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:37:02 UTC] PHP   3. displayImageQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:32
+[19-Feb-2018 20:37:03 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 55
+[19-Feb-2018 20:37:03 UTC] PHP Stack trace:
+[19-Feb-2018 20:37:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:37:03 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:37:03 UTC] PHP   3. displayImageQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:32
+[19-Feb-2018 20:37:04 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 55
+[19-Feb-2018 20:37:04 UTC] PHP Stack trace:
+[19-Feb-2018 20:37:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:37:04 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:37:04 UTC] PHP   3. displayImageQuotes() /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:30
+[19-Feb-2018 20:37:15 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 40
+[19-Feb-2018 20:37:15 UTC] PHP Stack trace:
+[19-Feb-2018 20:37:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:37:15 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:37:15 UTC] PHP   3. displayImageQuotes($myTheme = *uninitialized*) /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:28
+[19-Feb-2018 20:37:16 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 40
+[19-Feb-2018 20:37:16 UTC] PHP Stack trace:
+[19-Feb-2018 20:37:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:37:16 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:37:16 UTC] PHP   3. displayImageQuotes($myTheme = *uninitialized*) /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:32
+[19-Feb-2018 20:37:17 UTC] PHP Fatal error:  Call to undefined function suffle() in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 40
+[19-Feb-2018 20:37:17 UTC] PHP Stack trace:
+[19-Feb-2018 20:37:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[19-Feb-2018 20:37:17 UTC] PHP   2. start() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:28
+[19-Feb-2018 20:37:17 UTC] PHP   3. displayImageQuotes($myTheme = *uninitialized*) /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php:28
+[20-Feb-2018 01:32:45 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 36
+[20-Feb-2018 01:32:45 UTC] PHP Stack trace:
+[20-Feb-2018 01:32:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:32:46 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 36
+[20-Feb-2018 01:32:46 UTC] PHP Stack trace:
+[20-Feb-2018 01:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:33:48 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 36
+[20-Feb-2018 01:33:48 UTC] PHP Stack trace:
+[20-Feb-2018 01:33:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:33:48 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 36
+[20-Feb-2018 01:33:48 UTC] PHP Stack trace:
+[20-Feb-2018 01:33:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:34:02 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 36
+[20-Feb-2018 01:34:02 UTC] PHP Stack trace:
+[20-Feb-2018 01:34:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:34:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 36
+[20-Feb-2018 01:34:05 UTC] PHP Stack trace:
+[20-Feb-2018 01:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:34:09 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 36
+[20-Feb-2018 01:34:09 UTC] PHP Stack trace:
+[20-Feb-2018 01:34:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:34:10 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 36
+[20-Feb-2018 01:34:10 UTC] PHP Stack trace:
+[20-Feb-2018 01:34:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:36:18 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 13
+[20-Feb-2018 01:36:18 UTC] PHP Stack trace:
+[20-Feb-2018 01:36:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:36:18 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:27
+[20-Feb-2018 01:36:19 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 13
+[20-Feb-2018 01:36:19 UTC] PHP Stack trace:
+[20-Feb-2018 01:36:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:36:19 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:27
+[20-Feb-2018 01:36:37 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 13
+[20-Feb-2018 01:36:37 UTC] PHP Stack trace:
+[20-Feb-2018 01:36:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:36:37 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:27
+[20-Feb-2018 01:36:49 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 13
+[20-Feb-2018 01:36:49 UTC] PHP Stack trace:
+[20-Feb-2018 01:36:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:36:49 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:27
+[20-Feb-2018 01:36:50 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 13
+[20-Feb-2018 01:36:50 UTC] PHP Stack trace:
+[20-Feb-2018 01:36:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:36:50 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:27
+[20-Feb-2018 01:36:55 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 13
+[20-Feb-2018 01:36:55 UTC] PHP Stack trace:
+[20-Feb-2018 01:36:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:36:55 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:27
+[20-Feb-2018 01:37:12 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 13
+[20-Feb-2018 01:37:12 UTC] PHP Stack trace:
+[20-Feb-2018 01:37:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:37:12 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:27
+[20-Feb-2018 01:37:14 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 13
+[20-Feb-2018 01:37:14 UTC] PHP Stack trace:
+[20-Feb-2018 01:37:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:37:14 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:27
+[20-Feb-2018 01:37:32 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 13
+[20-Feb-2018 01:37:32 UTC] PHP Stack trace:
+[20-Feb-2018 01:37:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:37:32 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:27
+[20-Feb-2018 01:37:45 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 13
+[20-Feb-2018 01:37:46 UTC] PHP Stack trace:
+[20-Feb-2018 01:37:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:37:46 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:27
+[20-Feb-2018 01:37:52 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 13
+[20-Feb-2018 01:37:52 UTC] PHP Stack trace:
+[20-Feb-2018 01:37:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:37:52 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:27
+[20-Feb-2018 01:38:17 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 13
+[20-Feb-2018 01:38:17 UTC] PHP Stack trace:
+[20-Feb-2018 01:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:38:17 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:27
+[20-Feb-2018 01:38:20 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/sllopis/hw/hw2/inc/functions.php on line 13
+[20-Feb-2018 01:38:20 UTC] PHP Stack trace:
+[20-Feb-2018 01:38:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:0
+[20-Feb-2018 01:38:20 UTC] PHP   2. include() /home/ubuntu/workspace/sllopis/hw/hw2/index.php:27
