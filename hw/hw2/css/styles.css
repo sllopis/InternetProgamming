@@ -34,7 +34,7 @@ input {
 #footerPic{
     pointer-events:none;
     opacity: 1;
-    width:200px;
+    width:100px;
     display:inline-block;
     padding:5px;
     
