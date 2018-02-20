@@ -9,8 +9,17 @@
                     "If you try, you risk failure. If you don’t, you ensure it.",
                     "If you do what you need, you’re surviving. If you do what you want, you’re living."];
                     
-                    $randomTheme = array_rand($themeArray);
-                    $randomPhrase = rand(0, count($phraseArray)-1);
+                    #If arrays are empty, then it warns an error.
+                    if(!count($themeArray) > 0 && !count($phraseArray) > 0)
+                    {
+                        echo 'Error, array are empty.';
+                    }
+                    
+                    #Randomizing theme and phrases.
+                    for($i=0; $i< 5; $i++){
+                        $randomTheme = array_rand($themeArray);
+                        $randomPhrase = rand(0, count($phraseArray)-1);
+                    }
                     
                     echo "<h3 style='color:white; padding:60px;'> $phraseArray[$randomPhrase] </h3>";
                 
@@ -35,26 +44,12 @@
                         array_push($pictureArray, 0,1,2,3);
                         
                         echo "<h3> #$myTheme </h3>";
-                        
-                        
-                        
                         shuffle($pictureArray);
                         
                         for($i=0; $i<4; $i++){
                             echo "<img src='img/$myTheme/$pictureArray[$i].jpg' alt='$myTheme' title='$myTheme'/>";
-                            
-                            
-                            // switch ($i){
-                            //     case 1: echo "<img src='img/$myTheme/quote1.jpg' />";
-                            //         break;
-                            //     case 2: echo "<img src='img/$myTheme/quote2.jpg' />";
-                            //         break;
-                            //     case 3: echo "<img src='img/$myTheme/quote3.jpg' />";
-                            //         break;
-                            //     case 4: echo "<img src='img/$myTheme/quote4.jpg' />";
-                            //         break;
-                            }
-                            
                         }
+                            
+                    }
                         
 ?>
