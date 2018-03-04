@@ -70,6 +70,9 @@
           top: 150px;
           left:300px;
           width: 1000px;
+          opacity:0.9;
+          font-size:1.8em;
+          color:yellow;
         }
          
         #carouselExampleIndicators {
@@ -84,13 +87,15 @@
           border:0 none;
           cursor:pointer;
           -webkit-border-radius: 5px;
-          border-radius: 5px; 
+          border-radius: 5px;
+          
         }
         input[type=text] {
         padding:5px; 
         border:2px solid #ccc; 
         -webkit-border-radius: 5px;
         border-radius: 5px;
+        color:green;
         }
 
         input[type=text]:focus {
@@ -141,7 +146,7 @@
             </select>
             
             
-            <input type="submit" name="submit" style="border-radius:40px; color:blure;" value="Search"/>
+            <input type="submit" name="submit" style="border-radius:40px; color:yellow; background-color: #4CAF50;" value="Search"/>
                     
         </form>
         
