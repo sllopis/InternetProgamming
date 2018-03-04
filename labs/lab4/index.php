@@ -12,10 +12,8 @@
         echo "<h3>You searched for " . $_GET['keyword'] . "</h3>";
       }
       else{
-        
+         //do nothing 
       }
-      
-      
       
       if (isset($_GET['layout'])) {  //user checked a layout
         
@@ -59,7 +57,7 @@
         @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
         @import url("css/styles.css");
         body {
-         
+          text-align:center;
           background-image: url(<?=$backgroundImage?>);
           background-size: 100% 100%;
           background-attachment: fixed;
@@ -67,6 +65,7 @@
         }
         
         h3,h2{
+          text-align: center;
           font-size:1.3em;
           color:yellow;
         }
@@ -78,6 +77,7 @@
         }
         
         input[type=submit] {
+          text-align: center;
           padding:5px 15px; 
           background:#ccc; 
           border:0 none;
@@ -87,6 +87,7 @@
           
         }
         input[type=text] {
+           text-align: center;
         padding:5px; 
         border:2px solid #ccc; 
         -webkit-border-radius: 5px;
@@ -95,14 +96,10 @@
         }
 
         input[type=text]:focus {
-          border-color:#333;
+           text-align: center;
+          border-color:green;
         }
         
-        #hlayout{
-          top:100px;
-        }
-         
-         
     </style>
     <body>
 
