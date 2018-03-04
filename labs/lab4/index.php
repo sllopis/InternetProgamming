@@ -6,6 +6,8 @@
       
       include 'api/pixabayAPI.php';
       
+      $keyword = $_GET['keyword'];
+      
       if(!empty($_GET['keyword'])){
         echo "<h3>You searched for " . $_GET['keyword'] . "</h3>";
       }
@@ -13,13 +15,15 @@
         
       }
       
-      $orientation = "horizontal"; 
-      $keyword = $_GET['keyword'];
+      
       
       if (isset($_GET['layout'])) {  //user checked a layout
         
         $orientation = $_GET['layout'];
         
+      }
+      else{
+        $orientation = "horizontal"; 
       }
       
       if (!empty($_GET['category'])) { //user selected a category
@@ -115,7 +119,7 @@
             
             <input id="keyword" type="text" size="20" name="keyword" placeholder="Keyword to search for" value="<?=$_GET['keyword']?>"/>
             
-            <input type="radio" name="layout" value="Horizontal" id="hlayout" 
+            <input type="radio" name="layout" value="horizontal" id="hlayout" 
             
             <?php
                if ($_GET['layout'] == "horizontal") {
@@ -126,7 +130,7 @@
             >
             <label for="hlayout"> Horizontal </label>
             
-            <input type="radio" style="border-radius:20px;"name="layout" value="Vertical" id="vlayout" <?= ($_GET['layout']=="vertical")?"checked":"" ?>>
+            <input type="radio" style="border-radius:20px;"name="layout" value="vertical" id="vlayout" <?= ($_GET['layout']=="vertical")?"checked":"" ?>>
             <label for="vlayout"> Vertical </label>
             
             <select name="category">
