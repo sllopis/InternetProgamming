@@ -59,18 +59,14 @@
         @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
         @import url("css/styles.css");
         body {
-           background-image: url(<?=$backgroundImage?>);
-           background-size: 100% 100%;
-           background-attachment: fixed;
-           font-family: 'Indie Flower', cursive;
+         
+          background-image: url(<?=$backgroundImage?>);
+          background-size: 100% 100%;
+          background-attachment: fixed;
+          font-family: 'Indie Flower', cursive;
         }
         
         h3,h2{
-          position: absolute;
-          top: 150px;
-          left:300px;
-          width: 1000px;
-          opacity:0.9;
           font-size:1.3em;
           color:yellow;
         }
