@@ -71,7 +71,7 @@
           left:300px;
           width: 1000px;
           opacity:0.9;
-          font-size:1.8em;
+          font-size:1.3em;
           color:yellow;
         }
          
