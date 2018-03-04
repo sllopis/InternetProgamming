@@ -33,9 +33,6 @@
       
       $backgroundImage = $imageURLs[array_rand($imageURLs)];
   }
-  else{
-      echo "<h2> You must type a keyword or select a category </h2>";
-  }
  
 
  function checkCategory($category){
@@ -66,7 +63,7 @@
         
         h3,h2{
           text-align: center;
-          font-size:1.3em;
+          font-size:1.8em;
           color:yellow;
         }
          
