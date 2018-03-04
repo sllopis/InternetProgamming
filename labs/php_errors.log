@@ -8,3 +8,26 @@
 [12-Feb-2018 03:39:17 UTC] PHP Parse error:  syntax error, unexpected 'reel' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/sllopis/labs/lab2/inc/functions.php on line 28
 [12-Feb-2018 03:39:17 UTC] PHP Stack trace:
 [12-Feb-2018 03:39:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab2/index.php:0
+[21-Feb-2018 22:58:06 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/sllopis/labs/lab4/index.php on line 5
+[21-Feb-2018 23:12:52 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/sllopis/labs/lab4/index.php on line 17
+[21-Feb-2018 23:18:09 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/sllopis/labs/lab4/index.php on line 7
+[21-Feb-2018 23:18:12 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/sllopis/labs/lab4/index.php on line 7
+[21-Feb-2018 23:18:13 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/sllopis/labs/lab4/index.php on line 7
+[21-Feb-2018 23:18:24 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/sllopis/labs/lab4/index.php on line 5
+[21-Feb-2018 23:18:24 UTC] PHP Stack trace:
+[21-Feb-2018 23:18:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab4/index.php:0
+[21-Feb-2018 23:18:24 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/sllopis/labs/lab4/index.php on line 5
+[21-Feb-2018 23:18:24 UTC] PHP Stack trace:
+[21-Feb-2018 23:18:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab4/index.php:0
+[04-Mar-2018 03:09:32 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/sllopis/labs/lab4/index.php on line 40
+[04-Mar-2018 03:09:33 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/sllopis/labs/lab4/index.php on line 40
+[04-Mar-2018 03:22:20 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/sllopis/labs/lab4/index.php on line 7
+[04-Mar-2018 03:22:35 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/sllopis/labs/lab4/index.php on line 37
+[04-Mar-2018 03:26:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/sllopis/labs/lab4/index.php on line 169
+[04-Mar-2018 03:28:30 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/sllopis/labs/lab4/index.php on line 7
+[04-Mar-2018 03:53:28 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/ubuntu/workspace/sllopis/labs/lab4/index.php on line 102
+[04-Mar-2018 03:53:28 UTC] PHP Stack trace:
+[04-Mar-2018 03:53:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab4/index.php:0
+[04-Mar-2018 03:54:13 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/ubuntu/workspace/sllopis/labs/lab4/index.php on line 102
+[04-Mar-2018 03:54:13 UTC] PHP Stack trace:
+[04-Mar-2018 03:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab4/index.php:0
