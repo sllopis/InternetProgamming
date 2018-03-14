@@ -48,3 +48,9 @@ form{
     color:gold;
     font-size:50px;
 }
+
+input{
+    text-align: left;
+    display:inline;
+}
+

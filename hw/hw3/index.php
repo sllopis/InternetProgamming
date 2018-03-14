@@ -11,6 +11,7 @@
         <div id="banner" >
           <img src='img/survey.png' />
         </div>
+        
   
 <form method="post" action="functions.php" target="_self">  
 
@@ -50,12 +51,13 @@
   <br><br>
   
   <b>Gender:   </b>
-  <label for="male">Male</label>
+  
   <input id="male" type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> value="male">
-  <label for="female">Female</label>
+  <label for="male">Male</label>
   <input id="female" type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="female">
-  <label for="other">Other</label>
+  <label for="female">Female</label>
   <input id="other" type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked";?> value="other">
+  <label for="other">Other</label>
   <span class="error"><b>*</b> <?php echo $genderErr;?></span>
   
   <br><br>
@@ -69,6 +71,7 @@
 <footer>
     <p style="color:white">CST 336 Internet Programming &copy;2018. All rights reserved. <br>
                     Sergio Llopis Do&#241ate</p>
+                    <img width="100px;" src='img/buddy.png'
 </footer>
 </html>
 
