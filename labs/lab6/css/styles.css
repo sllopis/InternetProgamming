@@ -1,0 +1,14 @@
+body{
+    text-align:center;
+    margin: 0 auto;
+    background-color:gold;
+    background-size: 100% 100%;
+    font-family: 'Indie Flower', cursive;
+    color:black;
+    font-weight: bold;
+    font-size:1.5em;
+}
+
+#purchased{
+    border: solid 200px white;
+}
