@@ -1,3 +1,4 @@
+
 <?php
 
     include '../../dbConnection.php';
@@ -18,7 +19,9 @@
         foreach ($records as $record) {
             
             echo "<option value='".$record["catId"]."' >" . $record["catName"] . "</option>";
+            
         }
+        
     }
     
     function displaySearchResults(){
@@ -26,7 +29,7 @@
         
         if (isset($_GET['searchForm'])) { //checks whether user has submitted the form
             
-            echo "<h1>Products Found: </h1>"; 
+            echo "<h3>Products Found: </h3>"; 
             
             //following sql works but it DOES NOT prevent SQL Injection
             //$sql = "SELECT * FROM om_product WHERE 1
@@ -42,31 +45,12 @@
                  $sql .=  " AND productName LIKE :productName";
                  $namedParameters[":productName"] = "%" . $_GET['product'] . "%";
             }
-            
-            if (!empty($_GET['category'])) { //checks whether user has typed something in the "Product" text box
+                  
+                  
+             if (!empty($_GET['category'])) { //checks whether user has typed something in the "Product" text box
                  $sql .=  " AND catId = :categoryId";
                  $namedParameters[":categoryId"] =  $_GET['category'];
             }        
-            
-            if (!empty($_GET['priceFrom'])) { 
-                 $sql .=  " AND price >= :priceFrom";
-                 $namedParameters[":priceFrom"] =  $_GET['priceFrom'];
-            } 
-            
-            if (!empty($_GET['priceTo'])) { 
-                 $sql .=  " AND price <= :priceTo";
-                 $namedParameters[":priceTo"] =  $_GET['priceTo'];
-            } 
-            
-            if (isset($_GET['orderBy'])) { 
-                 
-                 if($_GET['orderBy'] == "price"){
-                     $sql .=  " ORDER BY price";
-                 }
-                 else{
-                     $sql .=  " ORDER BY productName";
-                 }
-            } 
             
             //echo $sql; //for debugging purposes
             

@@ -32,3 +32,35 @@
 [04-Mar-2018 03:54:13 UTC] PHP Stack trace:
 [04-Mar-2018 03:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab4/index.php:0
 [26-Mar-2018 22:21:19 UTC] PHP Parse error:  syntax error, unexpected 'header' (T_STRING) in /home/ubuntu/workspace/sllopis/labs/lab7/loginProcess.php on line 37
+[01-Apr-2018 07:16:02 UTC] PHP Warning:  Illegal string offset 'catId' in /home/ubuntu/workspace/sllopis/labs/lab6/index.php on line 19
+[01-Apr-2018 07:16:02 UTC] PHP Stack trace:
+[01-Apr-2018 07:16:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:0
+[01-Apr-2018 07:16:02 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:105
+[01-Apr-2018 07:16:02 UTC] PHP Warning:  Illegal string offset 'catName' in /home/ubuntu/workspace/sllopis/labs/lab6/index.php on line 19
+[01-Apr-2018 07:16:02 UTC] PHP Stack trace:
+[01-Apr-2018 07:16:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:0
+[01-Apr-2018 07:16:02 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:105
+[01-Apr-2018 07:16:02 UTC] PHP Warning:  Illegal string offset 'catId' in /home/ubuntu/workspace/sllopis/labs/lab6/index.php on line 19
+[01-Apr-2018 07:16:02 UTC] PHP Stack trace:
+[01-Apr-2018 07:16:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:0
+[01-Apr-2018 07:16:02 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:105
+[01-Apr-2018 07:16:02 UTC] PHP Warning:  Illegal string offset 'catName' in /home/ubuntu/workspace/sllopis/labs/lab6/index.php on line 19
+[01-Apr-2018 07:16:02 UTC] PHP Stack trace:
+[01-Apr-2018 07:16:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:0
+[01-Apr-2018 07:16:02 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:105
+[01-Apr-2018 07:16:02 UTC] PHP Warning:  Illegal string offset 'catId' in /home/ubuntu/workspace/sllopis/labs/lab6/index.php on line 19
+[01-Apr-2018 07:16:02 UTC] PHP Stack trace:
+[01-Apr-2018 07:16:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:0
+[01-Apr-2018 07:16:02 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:105
+[01-Apr-2018 07:16:02 UTC] PHP Warning:  Illegal string offset 'catName' in /home/ubuntu/workspace/sllopis/labs/lab6/index.php on line 19
+[01-Apr-2018 07:16:02 UTC] PHP Stack trace:
+[01-Apr-2018 07:16:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:0
+[01-Apr-2018 07:16:02 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:105
+[01-Apr-2018 07:16:02 UTC] PHP Warning:  Illegal string offset 'catId' in /home/ubuntu/workspace/sllopis/labs/lab6/index.php on line 19
+[01-Apr-2018 07:16:02 UTC] PHP Stack trace:
+[01-Apr-2018 07:16:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:0
+[01-Apr-2018 07:16:02 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:105
+[01-Apr-2018 07:16:02 UTC] PHP Warning:  Illegal string offset 'catName' in /home/ubuntu/workspace/sllopis/labs/lab6/index.php on line 19
+[01-Apr-2018 07:16:02 UTC] PHP Stack trace:
+[01-Apr-2018 07:16:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:0
+[01-Apr-2018 07:16:02 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:105
