@@ -64,3 +64,19 @@
 [01-Apr-2018 07:16:02 UTC] PHP Stack trace:
 [01-Apr-2018 07:16:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:0
 [01-Apr-2018 07:16:02 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:105
+[01-Apr-2018 07:37:10 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/sllopis/labs/lab6/index.php on line 14
+[01-Apr-2018 07:37:10 UTC] PHP Stack trace:
+[01-Apr-2018 07:37:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:0
+[01-Apr-2018 07:37:10 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/sllopis/labs/lab6/index.php:93
+[01-Apr-2018 07:44:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/sllopis/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/sllopis/dbConnection.php(19): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/sllopis/labs/lab6/index.php(4): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/sllopis/dbConnection.php on line 19
+[01-Apr-2018 07:44:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/sllopis/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/sllopis/dbConnection.php(19): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/sllopis/labs/lab6/index.php(4): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/sllopis/dbConnection.php on line 19
