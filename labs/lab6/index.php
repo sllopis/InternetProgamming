@@ -83,9 +83,8 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
 		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
         <title> OtterMart Product Search </title>
