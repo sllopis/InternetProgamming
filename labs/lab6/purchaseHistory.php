@@ -44,4 +44,8 @@
     </head>
     <body>
     </body>
+    <footer>
+		CST 336 Internet Programming &copy;Lab 6
+		<img src="img/csumb.jpeg" alt="California State University" />
+	</footer>
 </html>
