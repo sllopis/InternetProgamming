@@ -137,6 +137,6 @@
     
     <footer>
 			CST 336 Internet Programming &copy;Lab 6
-		<img src="img/csumb.jpeg" alt="California State University" />
+		<img style="width:100px" src="img/buddy_verified.png" alt="Buddy" />
 	</footer>
 </html>
