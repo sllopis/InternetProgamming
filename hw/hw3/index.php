@@ -13,7 +13,7 @@
         </div>
         
   
-<form method="post" action="functions.php" target="_self">  
+<form method="POST" action="functions.php" target="_self">  
 
   <p><span class="error"><strong>* required field</strong></span></p>
   <label for="name"><b>Name:</b></label>
