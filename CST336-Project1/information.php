@@ -25,10 +25,10 @@
         
         echo "<img src='" . $record['bookImage'] . "' width = '200' /></p><br>";
         echo "<p>Title: " . $record["bookName"] . "</p><br />";
-        echo "<p>Book Description: " . $record["bookDescription"] . "</p><br />";
+        echo "<p style='color:black; background-color:white;'>Book Description: " . $record["bookDescription"] . "</p><br />";
         echo "<p>Author: " . $record["authorName"] . "</p><br />";       //how to get author name?
         echo "<p>Category: " . $record["catName"] . "</p><br />";
-        echo "<p>Category Description: " . $record["catDescription"] . "</p><br />";
+        echo "<p style='color:black; background-color:white;>Category Description: " . $record["catDescription"] . "</p><br />";
         
     
     // if(sizeof($records) == 0) {

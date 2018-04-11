@@ -3,7 +3,7 @@
 
     include 'dbConnection.php';
     
-    $conn = getDatabaseConnection("library");
+    $conn = getDatabaseConnection("heroku_aa693a7a56d9950");
     include 'addCart.php';
     
     function displayAuthor(){
@@ -109,13 +109,11 @@
         
         //when displayed, post book name: bookDescription
             foreach ($records as $record) { 
-                //add category //add 
-                // <a href = "\information.php?bookId=1> </a>"?
-                 echo "<a href =\"information.php?bookId=" . $record["bookID"] . "\"> Info</a> ";
+                 echo "<a href =\"information.php?bookId=" . $record["bookID"] . "\">Info</form</a> ";
                  echo "<form method='post'><input type='hidden' name='bookId' value='" .
-                    $record["bookID"] . "'><input type='submit' value='Add to cart' name='addBook'></form>";
+                 $record["bookID"] . "'><input type='submit' value='Add to cart' name='addBook'></form>";
                  //echo "<a href='addCart.php?bookId=" . $record["bookID"] . "'>Add to cart </a>";
-                 echo  "<a style='color:black; background-color:white;'>". $record["authorName"] . " <strong><br>" . $record["bookName"] . ":</strong>" . "" . $record["bookDescription"] . "</a><br /> <br>";
+                 echo  "<p style='color:black; background-color:white;'>". $record["authorName"] . " <strong><br>" . $record["bookName"] . ":</strong>" . "" . $record["bookDescription"] . "</p><br /> <br>";
             
             }
         }

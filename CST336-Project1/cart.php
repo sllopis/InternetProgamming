@@ -26,7 +26,7 @@ function displayCart() {
 		$author = getAuthor($book);
 		$authorName = $author["authorName"];
 
-		echo "<tr>";
+		echo "<tr style='color:black; background-color:white;>";
 		echo "<td><img src='$img'></td>";
 		echo "<td><h3><mark>$title</mark></h3></td>";
 		echo "<td class='desc'>$desc</td>";
