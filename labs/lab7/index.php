@@ -91,6 +91,6 @@
 
     </body>
 
-	    CST 336 Internet Programming &copy;Lab 6
+	    CST 336 Internet Programming &copy;Lab 7
 		<img style="width:100px" src="img/buddy_verified.png" alt="Buddy" />
 </html>
