@@ -76,16 +76,12 @@
                 if (empty($record)) {
                     
                     echo "<h4 style='color:red;'> * Wrong username or password!</h4>";
-                   
-                    
+ 
                 } 
                 else {
-                    
-                    
                         //echo $record['firstName'] . " " . $record['lastName'];
                         $_SESSION['adminName'] = $record['firstName'] . " " . $record['lastName'];
                         header("Location:admin.php");
-                    
                 }
             
             }
@@ -94,9 +90,7 @@
         ?>
 
     </body>
-    
-    <footer>
-			    CST 336 Internet Programming &copy;Lab 6
-		    <img style="width:100px" src="img/buddy_verified.png" alt="Buddy" />
-	 </footer>
+
+	    CST 336 Internet Programming &copy;Lab 6
+		<img style="width:100px" src="img/buddy_verified.png" alt="Buddy" />
 </html>
