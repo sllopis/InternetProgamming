@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>King Kong - Shooting</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+		<script language="javascript" type="text/javascript" src="js/engine.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+   	</head>
+	<!--<body onload="init()">-->
+	<body>
+		<h1> KING KONG: <i> The King of the Jungle </i> </h1>
+		<div id="gameWindow">
+			<div class="wrapper">
+			<input class="button" type="button" id="startGame" value="Start Game!" onclick="init();">
+			<input class="button" type="hidden" id="restartGame" value="Restart Game!" onclick="restartGame();">
+			</div>
+			<div style="display:none" id="monkey_01" class="monkey" onmousedown="hitMonkey()"></div>
+		</div>
+		<h1 style="color:white; text-align:center; font-family: initial"><span style='color:#66ff33' >Win</span> by shooting <span style='color:#66ff33'>10</span> monkeys, <span style='color:red'>lose</span> by missing <span style='color:red'>5</span> shots.</h1>
+		<h2 id="outputHit"></h2>
+		<h2 id="outputMis"></h2>
+	</body>
+	<hr style="width:15%">
+	<footer style="text-align:center;">
+        <h4 style="color:white;">CST 336 Internet Programming &copy;Homework 4</h4>
+        <img style="width:100px;" src="img/buddy_verified.png" alt="Buddy" />
+    </footer>
+</html>
+
