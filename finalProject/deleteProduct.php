@@ -9,7 +9,7 @@
    header("Location:login.php");
  }
     
- $connection = getDatabaseConnection("library");
+ $connection = getDatabaseConnection("heroku_aa693a7a56d9950");
     //heroku_aa693a7a56d9950
  $sql = "DELETE FROM book WHERE bookID = " . $_GET['bookID'];
 

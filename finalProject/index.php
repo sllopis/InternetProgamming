@@ -2,7 +2,7 @@
 session_start();
 
 include '../dbConnection.php';
-$conn = getDatabaseConnection("library");
+$conn = getDatabaseConnection("heroku_aa693a7a56d9950");
 //heroku_aa693a7a56d9950
  function displayAuthor(){
         global $conn;

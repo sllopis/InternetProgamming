@@ -3,7 +3,7 @@
 
     include '../dbConnection.php';
     
-    $conn = getDatabaseConnection("library");
+    $conn = getDatabaseConnection("heroku_aa693a7a56d9950");
     //heroku_aa693a7a56d9950
     $username = $_POST['username'];
     $password = sha1($_POST['password']);

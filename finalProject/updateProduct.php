@@ -9,7 +9,7 @@
       header("Location:login.php");
     }
     //heroku_aa693a7a56d9950
-    $connection = getDatabaseConnection("library");
+    $connection = getDatabaseConnection("heroku_aa693a7a56d9950");
     
     function getCategories($catId) {
         global $connection;
