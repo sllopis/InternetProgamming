@@ -1,0 +1,18 @@
+[30-Apr-2018 22:21:40 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sllopis/labs/lab10/api/getPetInfo.php on line 3
+[30-Apr-2018 22:21:40 UTC] PHP Stack trace:
+[30-Apr-2018 22:21:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab10/api/getPetInfo.php:0
+[30-Apr-2018 22:21:40 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sllopis/labs/lab10/api/getPetInfo.php on line 3
+[30-Apr-2018 22:21:40 UTC] PHP Stack trace:
+[30-Apr-2018 22:21:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab10/api/getPetInfo.php:0
+[30-Apr-2018 22:21:40 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/sllopis/labs/lab10/api/getPetInfo.php on line 4
+[30-Apr-2018 22:21:40 UTC] PHP Stack trace:
+[30-Apr-2018 22:21:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab10/api/getPetInfo.php:0
+[30-Apr-2018 22:21:45 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sllopis/labs/lab10/api/getPetInfo.php on line 3
+[30-Apr-2018 22:21:45 UTC] PHP Stack trace:
+[30-Apr-2018 22:21:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab10/api/getPetInfo.php:0
+[30-Apr-2018 22:21:45 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sllopis/labs/lab10/api/getPetInfo.php on line 3
+[30-Apr-2018 22:21:45 UTC] PHP Stack trace:
+[30-Apr-2018 22:21:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab10/api/getPetInfo.php:0
+[30-Apr-2018 22:21:45 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/sllopis/labs/lab10/api/getPetInfo.php on line 4
+[30-Apr-2018 22:21:45 UTC] PHP Stack trace:
+[30-Apr-2018 22:21:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/sllopis/labs/lab10/api/getPetInfo.php:0
