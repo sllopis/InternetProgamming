@@ -143,7 +143,7 @@ if (isset($_GET['submitProduct'])) {
                 <br></div>
                 <div class="form-group">
                 <div style="text-align:center" class="container">
-                    <input class="btn btn-info btn-rounded" type="submit" name="submitProduct" value="Add Product">
+                    <input class="btn btn-info btn-rounded" type="submit" name="submitProduct" value="Add Book">
                 </div>
                 </div>
             </form>
@@ -151,7 +151,7 @@ if (isset($_GET['submitProduct'])) {
             <?php 
                 if(isset($_GET['submitProduct'])){
                     echo "<div class='container text-center'><div class='alert alert-success' role='alert'>
-                        <strong>Congratulations!</strong> You successfully added a new product.
+                        <strong>Congratulations!</strong> You successfully added a new book.
                         </div></div>";
                 }    
             ?>
