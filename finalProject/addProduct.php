@@ -1,9 +1,10 @@
 <?php
 
 session_start();
-
+//heroku_aa693a7a56d9950
 include "../dbConnection.php";
 $conn = getDatabaseConnection("library");
+
 
 if(!isset( $_SESSION['adminName']))
 {
@@ -23,16 +24,31 @@ function getCategories() {
     }
 }
 
+function getAuthor() {
+    global $conn;
+    
+    $sql = "SELECT authorID, authorName from author ORDER BY authorName";
+    
+    $statement = $conn->prepare($sql);
+    $statement->execute();
+    $records = $statement->fetchAll(PDO::FETCH_ASSOC);
+    foreach ($records as $record) {
+        echo "<option value='".$record["authorID"] ."'>". $record['authorName'] ." </option>";
+    }
+}
+
 if (isset($_GET['submitProduct'])) {
+    
     $productName = $_GET['productName'];
     $productDescription = $_GET['description'];
     $productImage = $_GET['productImage'];
     $productPrice = $_GET['price'];
     $catId = $_GET['catId'];
+    $authorID = $_GET['authorID'];
     
     $sql = "INSERT INTO book
-            ( `bookName`, `bookDescription`, `bookImage`, `price`, `categoryID`) 
-             VALUES ( :bookName, :bookDescription, :bookImage, :price, :categoryID)";
+            ( `bookName`, `bookDescription`, `bookImage`, `price`, `categoryID`, `authorID`) 
+             VALUES ( :bookName, :bookDescription, :bookImage, :price, :categoryID, :authorID)";
     
     $namedParameters = array();
     $namedParameters[':bookName'] = $productName;
@@ -40,11 +56,13 @@ if (isset($_GET['submitProduct'])) {
     $namedParameters[':bookImage'] = $productImage;
     $namedParameters[':price'] = $productPrice;
     $namedParameters[':categoryID'] = $catId;
+    $namedParameters[':authorID'] = $authorID;
     
     //only for inserting or deleting, JUST PREPARE AND EXECUTE.
     $statement = $conn->prepare($sql);
     $statement->execute($namedParameters);
 }
+
 ?>
 
 <!DOCTYPE html>
@@ -106,6 +124,13 @@ if (isset($_GET['submitProduct'])) {
                     <input class="form-control" type="text" id="price" name="price"><br>
                 </div>
                 <div class="form-group">
+                    <label for="authorID">Author:</label>
+                    <select class="form-control" id="authorID" name="authorID">
+                        <option value="">Select One</option>
+                        <?php getAuthor(); ?>
+                    </select> <br />
+                </div>
+                <div class="form-group">
                     <label for="catID">Category:</label>
                     <select class="form-control" id="catID" name="catId">
                         <option value="">Select One</option>
@@ -114,10 +139,12 @@ if (isset($_GET['submitProduct'])) {
                 </div>
                 <div class="form-group">
                     <label for="productImage">Set Image Url: </label>
-                    <input class="form-control" type = "text" id="productImage" name = "productImage"><br>
-                </div>
+                    <input class="form-control" type = "text" id="productImage" name = "productImage">
+                <br></div>
+                <div class="form-group">
                 <div style="text-align:center" class="container">
                     <input class="btn btn-info btn-rounded" type="submit" name="submitProduct" value="Add Product">
+                </div>
                 </div>
             </form>
             

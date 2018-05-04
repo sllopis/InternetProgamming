@@ -4,7 +4,7 @@
     include '../dbConnection.php';
     
     $conn = getDatabaseConnection("library");
-    
+    //heroku_aa693a7a56d9950
     $username = $_POST['username'];
     $password = sha1($_POST['password']);
     
@@ -62,7 +62,6 @@
                   <p>Please log-in to access the Database Management Panel. </p>
                 </div>
          
-
             <!-- Search Form -->
             <div class="wrapper">
             
@@ -74,7 +73,6 @@
                 </form>
             </div>
     </body>
-    
     
     <?php  if(isset($_POST['submitForm'])){
        

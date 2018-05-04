@@ -1,29 +1,48 @@
 <?php
 
     session_start();
+    
     include '../dbConnection.php';
     
     if(!isset( $_SESSION['adminName']))
     {
       header("Location:login.php");
     }
-    
+    //heroku_aa693a7a56d9950
     $connection = getDatabaseConnection("library");
     
     function getCategories($catId) {
-    global $connection;
-    
-    $sql = "SELECT catID, catName from category ORDER BY catName";
-    
-    $statement = $connection->prepare($sql);
-    $statement->execute();
-    $records = $statement->fetchAll(PDO::FETCH_ASSOC);
-    foreach ($records as $record) {
-        echo "<option  ";
-        echo ($record["catID"] == $catId)? "selected": ""; 
-        echo " value='".$record["catID"] ."'>". $record['catName'] ." </option>";
+        global $connection;
+        
+        $sql = "SELECT catID, catName from category ORDER BY catName";
+        
+        $statement = $connection->prepare($sql);
+        $statement->execute();
+        $records = $statement->fetchAll(PDO::FETCH_ASSOC);
+        
+        foreach ($records as $record) {
+            echo "<option  ";
+            echo ($record["catID"] == $catId)? "selected": " "; 
+            echo " value='".$record["catID"] ."'>". $record['catName'] ." </option>";
+        }
     }
-}
+    
+    function getAuthor($authorID){
+        
+        global $connection;
+        
+        $sql = "SELECT distinct authorID, authorName FROM author ORDER BY authorName";
+        
+        $statement = $connection->prepare($sql);
+        $statement->execute();
+        $records = $statement->fetchAll(PDO::FETCH_ASSOC);
+        
+        foreach ($records as $record) {
+            echo "<option  ";
+            echo ($record["authorID"] == $authorID) ? "selected": " "; 
+            echo " value='".$record["authorID"] ."'>". $record['authorName'] ." </option>";
+        }
+    }
     
     function getProductInfo()
     {
@@ -39,34 +58,38 @@
         return $record;
     }
     
-    
     if (isset($_GET['updateProduct'])) {
         
-        $productName = $_GET['productName'];
+        global $connection;
+        
+        $bookName = $_GET['productName'];
         $productDescription = $_GET['description'];
         $productImage = $_GET['productImage'];
         $productPrice = $_GET['price'];
         $catId = $_GET['catId'];
         $productId = $_GET['productId'];
+        $authorID = $_GET['authorID'];
         
         //echo "Trying to update the product!";
         
         $sql = "UPDATE book
-                SET bookName = :bookName,
-                    bookDescription = :bookDescription,
-                    bookImage = :bookImage,
+                SET bookName = :productName,
+                    bookDescription = :productDescription,
+                    bookImage = :productImage,
                     price = :price,
+                    authorID = :authorID,
                     categoryID = :catId
-                WHERE bookID = :bookID";
+                WHERE bookID = :productId";
 
         
         $namedParameters = array();
-        $namedParameters[':bookName'] = $productName;
-        $namedParameters[':bookDescription'] = $productDescription;
-        $namedParameters[':bookImage'] = $productImage;
+        $namedParameters[':productName'] = $bookName;
+        $namedParameters[':productDescription'] = $productDescription;
+        $namedParameters[':productImage'] = $productImage;
         $namedParameters[':price'] = $productPrice;
         $namedParameters[':catId'] = $catId;
-        $namedParameters[':bookID'] = $productId;
+        $namedParameters[':authorID'] = $authorID;
+        $namedParameters[':productId'] = $productId;
         
         
         
@@ -76,13 +99,11 @@
     }
     
     
-    if(isset ($_GET['productId']))
+    if(isset ($_GET['bookID']))
     {
         $product = getProductInfo();
     }
     
-    print_r($product);
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -125,32 +146,41 @@
        <div class="col-md-8">
             <!-- Content Here -->
             <form>
-                <input type="hidden" name="productId" value= "<?=$product['productId']?>"/>
+                <input type="hidden" name="productId" value= "<?=$product['bookID']?>"/>
                  <div class="form-group">
                     <label for="productName">Book Name:</label>
-                    <input class="form-control" id="productName" type="text" value = "<?=$product['productName']?>" name="productName">
-                </div>
+                    <input class="form-control" id="productName" type="text" value = "<?=$product['bookName']?>" name="productName">
+                <br></div>
                 <div class="form-group">
                     <label for="description">Description:</label>
-                    <textarea class="form-control" id="description" name="description" cols = 50 rows = 4><?=$product['productDescription']?></textarea>
-                </div>
+                    <textarea class="form-control" id="description" name="description" cols = 50 rows = 4><?=$product['bookDescription']?></textarea>
+                <br></div>
                 <div class="form-group">
                     <label for="price">Price:</label>
                     <input class="form-control" id="price" type="text" name="price" value = "<?=$product['price']?>">
-                </div>
+                <br></div>
+                <div class="form-group">
+                    <label for="authorID">Author:</label>
+                    <select class="form-control" id="authorID" name="authorID">
+                        <option>Select One</option>
+                        <?php getAuthor( $product['authorID']  ); ?>
+                    </select>
+                <br></div>
                 <div class="form-group">
                     <label for="catID">Category:</label>
                     <select class="form-control" id="catID" name="catId">
                         <option>Select One</option>
-                        <?php getCategories( $product['catId'] ); ?>
+                        <?php getCategories( $product['categoryID']  ); ?>
                     </select>
-                </div>
+                <br></div>
                 <div class="form-group">
                     <label for="productImage">Set Image Url: </label>
-                    <input class="form-control" id="productImage" type ="text" name ="productImage" value = "<?=$product['productImage']?>"><br>
-                </div>
+                    <input class="form-control" id="productImage" type ="text" name ="productImage" value = "<?=$product['bookImage']?>"><br>
+                <br></div>
+                <div class="form-group">
                 <div style="text-align:center" class="container">
                     <input class="btn btn-info btn-rounded" type="submit" name="updateProduct" value="Update Product">
+                <br></div>
                 </div>
             </form>
             

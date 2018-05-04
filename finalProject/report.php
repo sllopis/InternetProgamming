@@ -8,7 +8,7 @@ if(!isset( $_SESSION['adminName']))
 
 include '../dbConnection.php';
 $conn = getDatabaseConnection("library");
-
+//heroku_aa693a7a56d9950
 function countHowManyBooks(){
     
     global $conn;

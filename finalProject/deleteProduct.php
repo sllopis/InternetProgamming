@@ -10,7 +10,7 @@
  }
     
  $connection = getDatabaseConnection("library");
-    
+    //heroku_aa693a7a56d9950
  $sql = "DELETE FROM book WHERE bookID = " . $_GET['bookID'];
 
  $statement = $connection->prepare($sql);
@@ -18,4 +18,4 @@
   
  header("Location: admin.php");
  
-?>
+?>  
