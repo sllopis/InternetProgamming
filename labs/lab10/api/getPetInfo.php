@@ -5,8 +5,8 @@
         return false;
         exit(1);
     }
-
-    $conn = getDatabaseConnection('heroku_aa693a7a56d9950');
+//heroku_aa693a7a56d9950
+    $conn = getDatabaseConnection('pets');
     
     $sql = "SELECT *, YEAR(CURDATE()) - yob age FROM pets WHERE id = :id";
     
